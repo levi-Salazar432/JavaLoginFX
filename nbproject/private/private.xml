@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/levi_salazar/bimestre_tres/s_7/JavaLoginFX/src/org/levisalazar/Controller/InicioSesionController.java</file>
+            <file>file:/C:/levi_salazar/bimestre_tres/s_7/JavaLoginFX/src/org/levisalazar/util/Conexion.java</file>
+            <file>file:/C:/levi_salazar/bimestre_tres/s_7/JavaLoginFX/src/org/levisalazar/util/SecurityUtil.java</file>
+            <file>file:/C:/levi_salazar/bimestre_tres/s_7/JavaLoginFX/src/org/levisalazar/system/Main.java</file>
+            <file>file:/C:/levi_salazar/bimestre_tres/s_7/JavaLoginFX/src/org/levisalazar/View/InicioSesionView.fxml</file>
+            <file>file:/C:/levi_salazar/bimestre_tres/s_7/JavaLoginFX/src/org/levisalazar/Controller/AdminDashboradController.java</file>
+            <file>file:/C:/levi_salazar/bimestre_tres/s_7/JavaLoginFX/src/org/levisalazar/View/AdminDashboradView.fxml</file>
+            <file>file:/C:/levi_salazar/bimestre_tres/s_7/JavaLoginFX/src/org/levisalazar/model/Usuario.java</file>
+            <file>file:/C:/levi_salazar/bimestre_tres/s_7/JavaLoginFX/src/org/levisalazar/dao/UsuarioDAO.java</file>
+        </group>
+    </open-files>
+</project-private>
