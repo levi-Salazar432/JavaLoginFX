@@ -104,7 +104,7 @@ public class InicioSesionController implements Initializable {
            escenario.setTitle(tituloDashboard);
            escenario.show();
            
-           // 2. Cerrar la ventana de login DESPUÉS
+           //Se cierra la ventana de login despues de presionar Iniciar.
            Stage escenaActual = (Stage) btnIniciarSesion.getScene().getWindow(); 
            escenaActual.close();
             
