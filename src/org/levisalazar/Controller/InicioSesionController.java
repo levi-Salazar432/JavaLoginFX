@@ -28,9 +28,7 @@ public class InicioSesionController implements Initializable {
     @FXML  private PasswordField txtPassword; 
     @FXML  private Button btnIniciarSesion; 
     @FXML  private Label lblMensaje; 
-    
-    
-    private UsuarioDAO usuarioDAO; 
+    @FXML private UsuarioDAO usuarioDAO; 
     
 
   @Override
@@ -69,11 +67,19 @@ public class InicioSesionController implements Initializable {
             case "admin":
                 rutaFXML = "/org/levisalazar/View/AdminDashboradView.fxml";
                 tituloDashboard = "Panel de Administracion";
+                System.out.println("fgaagasdgas");
                 break;
                 
             case "empleado":
-                    
+                 rutaFXML = "/org/levisalazar/View/EmpleadoDashboradView.fxml";
+                 tituloDashboard = "Panel de Empleado";  
+                 System.out.println("gaaa");
                     break;  
+            case "Cajero": 
+                rutaFXML = "/org/levisalazar/View/CajeroDashboradView.fxml";
+                 tituloDashboard = "Panel de Cajero"; 
+                 break; 
+                
         }
         try {
            FXMLLoader cargadorFXML = new FXMLLoader(getClass().getResource(rutaFXML));
