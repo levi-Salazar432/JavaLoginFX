@@ -1,10 +1,13 @@
 package org.levisalazar.Controller;
 
 
+
 import java.io.IOException;
 import java.net.URL;
+
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
+
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -98,7 +101,7 @@ public class InicioSesionController implements Initializable {
             System.err.println("ERROR al cargar la vista :" + rutaFXML+ e.getMessage());
             lblMensaje.setText("ERROR interno");
         }
-    }
+         }
     
 }
 
