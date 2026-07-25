@@ -6,7 +6,19 @@
             <file>file:/C:/Levi%20Salazar/bimestre_3/s_7/JavaLoginFX/src/org/levisalazar/Controller/AdminDashboradController.java</file>
             <file>file:/C:/Levi%20Salazar/bimestre_3/s_7/JavaLoginFX/src/org/levisalazar/util/Conexion.java</file>
             <file>file:/C:/Levi%20Salazar/bimestre_3/s_7/JavaLoginFX/src/org/levisalazar/Controller/InicioSesionController.java</file>
-            <file>file:/C:/Levi%20Salazar/bimestre_3/s_7/JavaLoginFX/src/org/levisalazar/View/InicioSesionView.fxml</file>
+            <file>file:/C:/Levi%20Salazar/bimestre_3/s_7/JavaLoginFX/src/org/levisalazar/Controller/CajeroDashboardController.java</file>
+            <file>file:/C:/Levi%20Salazar/bimestre_3/s_7/JavaLoginFX/src/org/levisalazar/View/style/cajerodashboardview.css</file>
+            <file>file:/C:/Levi%20Salazar/bimestre_3/s_7/JavaLoginFX/src/org/levisalazar/View/CajeroDashboardView.fxml</file>
+            <file>file:/C:/Levi%20Salazar/bimestre_3/s_7/JavaLoginFX/src/org/levisalazar/Controller/EmpleadoDashboardController.java</file>
+            <file>file:/C:/Levi%20Salazar/bimestre_3/s_7/JavaLoginFX/src/org/levisalazar/View/style/empleadodashboardview.css</file>
+            <file>file:/C:/Levi%20Salazar/bimestre_3/s_7/JavaLoginFX/src/org/levisalazar/View/EmpleadoDashboardView.fxml</file>
+            <file>file:/C:/Levi%20Salazar/bimestre_3/s_7/JavaLoginFX/src/org/levisalazar/Controller/DashboardController.java</file>
+            <file>file:/C:/Levi%20Salazar/bimestre_3/s_7/JavaLoginFX/src/org/levisalazar/dao/UsuarioDAO.java</file>
+            <file>file:/C:/Levi%20Salazar/bimestre_3/s_7/JavaLoginFX/src/org/levisalazar/system/Main.java</file>
+            <file>file:/C:/Levi%20Salazar/bimestre_3/s_7/JavaLoginFX/src/org/levisalazar/util/SecurityUtil.java</file>
+            <file>file:/C:/Levi%20Salazar/bimestre_3/s_7/JavaLoginFX/src/org/levisalazar/model/Usuario.java</file>
+            <file>file:/C:/Levi%20Salazar/bimestre_3/s_7/JavaLoginFX/src/sql/libreriadb_script_dml%201.sql</file>
+            <file>file:/C:/Levi%20Salazar/bimestre_3/s_7/JavaLoginFX/src/sql/libreriadb_script_Login.sql</file>
         </group>
     </open-files>
 </project-private>
