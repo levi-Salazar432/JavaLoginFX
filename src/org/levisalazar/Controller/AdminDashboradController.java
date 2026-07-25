@@ -19,7 +19,7 @@ public class AdminDashboradController implements Initializable {
      
     public void IniciarUsuario(Usuario usuario){
         this.usuarioActual = usuario; 
-        lblBienvenida.setText("Bienvenido Administrador : "+ usuario.getUsername());
+        lblBienvenida.setText("Bienvenido Administrador: " + usuario.getUsername());
     }
     
 }

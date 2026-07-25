@@ -17,8 +17,8 @@ public class EmpleadoDashboardController extends DashboardController implements 
     }    
     
     @Override 
-    public void iniciarUsuario(Usuario usuario){
+    public void IniciarUsuario(Usuario usuario){
         this.usuarioActual = usuario; 
-        lblBienvenida.setText("Bienvenido empleado " + usuario.getUsername());
+        lblBienvenida.setText("Bienvenido empleado: " + usuario.getUsername());
     }
 }

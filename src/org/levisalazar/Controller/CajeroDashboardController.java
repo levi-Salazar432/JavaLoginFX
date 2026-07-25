@@ -19,9 +19,9 @@ public class CajeroDashboardController extends DashboardController implements In
     }    
     
      @Override
-     public void iniciarUsuario(Usuario usuario){
+     public void IniciarUsuario(Usuario usuario){
          this.usuarioActual = usuario; 
-         lblBienvenida.setText("Bienvenido cajero " + usuario.getUsername());
+         lblBienvenida.setText("Bienvenido cajero: " + usuario.getUsername());
                  
      }
     

@@ -73,11 +73,11 @@ public class InicioSesionController implements Initializable {
                 break;
                 
             case "empleado":
-                 rutaFXML = "/org/levisalazar/View/EmpleadoDashboradView.fxml";
+                 rutaFXML = "/org/levisalazar/View/EmpleadoDashboardView.fxml";
                  tituloDashboard = "Panel de Empleado";  
                     break;  
-            case "Cajero": 
-                rutaFXML = "/org/levisalazar/View/CajeroDashboradView.fxml";
+            case "cajero": 
+                rutaFXML = "/org/levisalazar/View/CajeroDashboardView.fxml";
                  tituloDashboard = "Panel de Cajero"; 
                  break; 
                 
@@ -85,17 +85,28 @@ public class InicioSesionController implements Initializable {
         try {
            FXMLLoader cargadorFXML = new FXMLLoader(getClass().getResource(rutaFXML));
             Parent raiz = cargadorFXML.load();
-            
-            AdminDashboradController controlado = cargadorFXML.getController(); 
-            controlado.IniciarUsuario(usuario);
-            
+           switch (usuario.getRol().toLowerCase()) {
+               case "admin":
+                   AdminDashboradController adminController = cargadorFXML.getController();
+                   adminController.IniciarUsuario(usuario);
+                   break;
+               case "empleado":
+                   EmpleadoDashboardController empleadoController = cargadorFXML.getController();
+                   empleadoController.IniciarUsuario(usuario);
+                   break;
+               case "cajero":
+                   CajeroDashboardController cajeroController = cargadorFXML.getController();
+                   cajeroController.IniciarUsuario(usuario);
+                   break;
+           }
             Stage escenario = new Stage(); 
-            escenario.setScene(new Scene(raiz));
-            escenario.setTitle(tituloDashboard);
-            escenario.show();
-            
-            Stage escenaActual =  (Stage)btnIniciarSesion.getScene().getWindow(); 
-            escenaActual.close();
+           escenario.setScene(new Scene(raiz));
+           escenario.setTitle(tituloDashboard);
+           escenario.show();
+           
+           // 2. Cerrar la ventana de login DESPUÉS
+           Stage escenaActual = (Stage) btnIniciarSesion.getScene().getWindow(); 
+           escenaActual.close();
             
         } catch (IOException e) {
             System.err.println("ERROR al cargar la vista :" + rutaFXML+ e.getMessage());
