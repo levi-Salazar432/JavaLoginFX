@@ -67,13 +67,11 @@ public class InicioSesionController implements Initializable {
             case "admin":
                 rutaFXML = "/org/levisalazar/View/AdminDashboradView.fxml";
                 tituloDashboard = "Panel de Administracion";
-                System.out.println("fgaagasdgas");
                 break;
                 
             case "empleado":
                  rutaFXML = "/org/levisalazar/View/EmpleadoDashboradView.fxml";
                  tituloDashboard = "Panel de Empleado";  
-                 System.out.println("gaaa");
                     break;  
             case "Cajero": 
                 rutaFXML = "/org/levisalazar/View/CajeroDashboradView.fxml";
