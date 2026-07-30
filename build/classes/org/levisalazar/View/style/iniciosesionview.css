@@ -1,7 +1,94 @@
-/*
- * Empty Stylesheet file.
+/* 
+ * Fondo general con degradado oscuro corporativo
  */
+.root-pane {
+    -fx-background-color: linear-gradient(to bottom right, #0f172a, #1e293b);
+}
 
-.mainFxmlClass {
+/* 
+ * Título de la vista
+ */
+.login-title {
+    -fx-text-fill: #38bdf8;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, rgba(56, 189, 248, 0.4), 8, 0, 0, 0);
+}
 
+/* 
+ * Tarjeta contenedora de formulario (efecto tarjeta flotante)
+ */
+.card-pane {
+    -fx-background-color: rgba(30, 41, 59, 0.75);
+    -fx-background-radius: 12px;
+    -fx-border-color: rgba(255, 255, 255, 0.08);
+    -fx-border-radius: 12px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 15, 0, 0, 5);
+}
+
+/* 
+ * Etiquetas de campos (Usuario y Contraseña)
+ */
+.input-label {
+    -fx-text-fill: #cbd5e1;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* 
+ * Campos de texto y contraseña modernos
+ */
+.modern-text-field {
+    -fx-background-color: #0f172a;
+    -fx-text-fill: #ffffff;
+    -fx-prompt-text-fill: #64748b;
+    -fx-background-radius: 6px;
+    -fx-border-color: #334155;
+    -fx-border-radius: 6px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 13px;
+    -fx-transition: all 0.2s ease-in-out;
+}
+
+.modern-text-field:focused {
+    -fx-border-color: #38bdf8;
+    -fx-effect: dropshadow(three-pass-box, rgba(56, 189, 248, 0.3), 6, 0, 0, 0);
+}
+
+/* 
+ * Botón de Iniciar Sesión con animaciones Hover y Press
+ */
+.btn-iniciar {
+    -fx-background-color: linear-gradient(to right, #0284c7, #0ea5e9);
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(14, 165, 233, 0.3), 8, 0, 0, 3);
+    -fx-transition: all 0.3s ease-in-out;
+}
+
+.btn-iniciar:hover {
+    -fx-background-color: linear-gradient(to right, #0369a1, #0284c7);
+    -fx-scale-x: 1.04;
+    -fx-scale-y: 1.04;
+    -fx-effect: dropshadow(three-pass-box, rgba(14, 165, 233, 0.6), 12, 0, 0, 4);
+}
+
+.btn-iniciar:pressed {
+    -fx-background-color: #0369a1;
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
+}
+
+/* 
+ * Etiqueta de Mensaje de alerta o error
+ */
+.lbl-mensaje {
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
 }

@@ -99,7 +99,7 @@ public class InicioSesionController implements Initializable {
                    cajeroController.IniciarUsuario(usuario);
                    break;
            }
-            Stage escenario = new Stage(); 
+           Stage escenario = new Stage(); 
            escenario.setScene(new Scene(raiz));
            escenario.setTitle(tituloDashboard);
            escenario.show();

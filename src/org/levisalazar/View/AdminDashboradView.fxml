@@ -6,19 +6,21 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.levisalazar.Controller.AdminDashboradController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="root-pane" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.levisalazar.Controller.AdminDashboradController">
     <stylesheets>
         <URL value="@/org/levisalazar/View/style/admindashboradview.css" />
     </stylesheets>
    <children>
-      <Label fx:id="lblBienvenida" layoutX="349.0" layoutY="71.0" text="Bienvenido">
+      <Label fx:id="lblBienvenida" layoutX="349.0" layoutY="71.0" styleClass="welcome-label" text="¡Bienvenido!">
          <font>
             <Font size="16.0" />
-         </font></Label>
-      <Button layoutX="59.0" layoutY="72.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="107.0" text="Salir" />
-      <Label contentDisplay="CENTER" layoutX="213.0" layoutY="243.0" prefHeight="59.0" prefWidth="174.0" text="ADMINISTRACION">
+         </font>
+      </Label>
+      <Button fx:id="btnSalir" layoutX="59.0" layoutY="72.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="110.0" styleClass="btn-salir" text="Salir" />
+      <Label contentDisplay="CENTER" layoutX="175.0" layoutY="200.0" prefHeight="59.0" prefWidth="250.0" styleClass="admin-title" text="ADMINISTRACIÓN">
          <font>
             <Font size="21.0" />
-         </font></Label>
+         </font>
+      </Label>
    </children>
 </AnchorPane>

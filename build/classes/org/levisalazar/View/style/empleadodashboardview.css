@@ -1,7 +1,54 @@
-/*
- * Empty Stylesheet file.
+/* 
+ * Panel Principal con fondo degradado moderno
  */
+.root-pane {
+    -fx-background-color: linear-gradient(to bottom right, #0f172a, #1e293b);
+}
 
-.mainFxmlClass {
+/* 
+ * Etiqueta de Bienvenida
+ */
+.welcome-label {
+    -fx-text-fill: #cbd5e1;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
 
+/* 
+ * Título de Módulo Empleado
+ */
+.empleado-title {
+    -fx-text-fill: #38bdf8;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, rgba(56, 189, 248, 0.4), 10, 0, 0, 0);
+}
+
+/* 
+ * Botón Salir con estilos y animaciones fluidas
+ */
+.btn-salir {
+    -fx-background-color: #ef4444;
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 5, 0, 0, 2);
+    -fx-transition: all 0.3s ease-in-out;
+}
+
+.btn-salir:hover {
+    -fx-background-color: #dc2626;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-effect: dropshadow(three-pass-box, rgba(239, 68, 68, 0.5), 10, 0, 0, 4);
+}
+
+.btn-salir:pressed {
+    -fx-background-color: #b91c1c;
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
 }
